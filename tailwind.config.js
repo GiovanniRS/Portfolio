@@ -9,9 +9,19 @@ export default {
     extend: {
       fontFamily: {
         jetBrains: ["JetBrains Mono", "monospace"]
+      },
+      colors: {
+        violet: {
+          gr: "#6803FA"
+        },
+        pink: {
+          gr: "#F030A5"
+        }
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-text-fill"),
+  ],
 }
 

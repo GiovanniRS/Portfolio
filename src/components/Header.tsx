@@ -1,4 +1,4 @@
-import { PiGear } from "react-icons/pi";
+import { PiGearSix } from "react-icons/pi";
 
 export default function Header(){
     return(
@@ -10,7 +10,7 @@ export default function Header(){
                     <a href="#portfolio" className="px-4">Portfolio</a>
                     <a href="#contato" className="px-4">Contato</a>
                     <a href="#area-do-aluno" className="px-4">Area do Aluno</a>
-                    <button><PiGear className="text-xl" /></button>
+                    <button><PiGearSix className="text-xl" /></button>
                 </nav>
             </div>
         </header>
